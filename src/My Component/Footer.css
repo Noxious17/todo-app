@@ -1,0 +1,52 @@
+/* Footer Styling */
+.footer {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.HoCq7-zOkOZ1J1DbRLGuOgHaE7&pid=Api&P=0&h=180'); /* Replace with your preferred image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #101214;
+    padding: 20px 0;
+    position: relative;
+  }
+  
+  .footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.6); /* Adds a dark overlay for better text readability */
+    z-index: 0;
+  }
+  
+  .footer .container {
+    position: relative;
+    z-index: 1; 
+    color: rgb(0, 0, 0);/* Ensures the text appears above the overlay */
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #000000;
+  }
+  
+  .footer p a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer p a:hover {
+    color: #ffdd57;
+    text-decoration: underline;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer p {
+      font-size: 0.8rem;
+    }
+  }
+  

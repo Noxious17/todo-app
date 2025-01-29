@@ -1,0 +1,59 @@
+/* General Navbar Styling */
+.navbar {
+    background: linear-gradient(90deg, #4a90e2, #50c878); 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 0.8rem 1.5rem;
+  }
+ 
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand:hover {
+    color: #ffe600; 
+  }
+  
+
+  .navbar-nav .nav-item .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f1f1f1;
+    margin-right: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #ffe600; 
+  }
+  
+  
+  .text-light {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2); 
+    padding: 0.4rem 0.8rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  @media (max-width: 768px) {
+    .navbar-brand {
+      font-size: 1.5rem;
+    }
+  
+    .text-light {
+      font-size: 0.9rem;
+    }
+  
+    .nav-link {
+      font-size: 0.95rem;
+    }
+  }
+  

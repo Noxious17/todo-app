@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header Section */
+  .header-logo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .header-logo h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Task List */
+  .list-group {
+    margin: 20px 0;
+  }
+  
+  .list-group-item {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .list-group-item:hover {
+    background: #e8f4ff;
+  }
+  
+  .fw-bold {
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  /* Delete Button */
+  .btn-danger {
+    font-size: 0.85rem;
+    padding: 6px 12px;
+    background-color: #dc3545;
+    border-color: #dc3545;
+    color: white;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  /* Add Task Section */
+  .mt-4 h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-control {
+    border-radius: 6px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .header-logo h2 {
+      font-size: 2rem;
+    }
+  
+    .fw-bold {
+      font-size: 1rem;
+    }
+  }
+  

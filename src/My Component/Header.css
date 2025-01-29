@@ -1,0 +1,37 @@
+/* Header Section */
+header {
+    background-image: url('https://tse4.mm.bing.net/th?id=OIP.tLGmL_34EOdFSJ2Ao5Ux8AHaDV&pid=Api&P=0&h=180'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 60px 20px;
+  }
+  
+  header .display-5 {
+    font-size: 3rem; /* Increased font size for main header */
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Adding deeper shadow for clarity */
+  }
+  
+  header .h4 {
+    font-size: 2rem; /* Increase font size for the subheading */
+    margin-top: 20px;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7); /* Apply shadow for better contrast */
+  }
+  
+  header .container {
+    max-width: 100%;
+    text-align: center;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    header .display-5 {
+      font-size: 2.5rem; /* Adjust for smaller screens */
+    }
+  
+    header .h4 {
+      font-size: 1.5rem; /* Adjust subheading for smaller screens */
+    }
+  }
+  
